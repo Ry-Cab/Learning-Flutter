@@ -29,13 +29,11 @@ class HomePageState extends State<HomePage>{
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         //crossAxisAlignment: CrossAxisAlignment.end,
-        //scrollDirection:  Axis.horizontal,
-        
         children: [
           Text("Contador: $counter"),
           Container(height:  10,),
           CustomSwitch(),
-          Container(height:  50,),      
+          Container(height:  50,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.center,
