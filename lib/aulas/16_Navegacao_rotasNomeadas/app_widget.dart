@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/app_controller.dart';
-import './home_page.dart';
+import 'package:flutter_application_1/aulas/10_componentiza%C3%A7%C3%A3o/home_page.dart';
 import './login_page.dart';
 
 class AppWidget extends StatelessWidget {
